@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: #FF915A;
+    --secondary-color: #FFE156;
+    --accent1-color: #8C1C13;
+    --accent2-color: #3772FF;
+
+    --heading-font: 'Open Sans', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+
+    --nav-background-color: #ffffff;
+    --nav-link-color: #000000 ;
+    --nav-hover-link-color: #3b497d;
+    --nav-hover-background-color: #ffffff ;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+header{
+    padding: 1rem;
+    height: 100px;
+    background: var(--primary-color);
+}
+header img{
+    width: auto;
+    height: 95px;
+}
+header a {
+    padding: 1rem;
+    float: right;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h1 {
+    position: absolute;
+    left: 350px;
+    top: 145px;
+}
+article{
+    position: absolute;
+    top: 200px;
+}
+article img {
+    width: 185px;
+    height: auto;
+    float: right;
+}
+
+p {
+    padding: 25px;
+}
+nav img{
+    width: 50px;
+    padding: 1rem;
+}
+a {
+    text-decoration: none;
+}
+
+/* Class Selectors*/
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
