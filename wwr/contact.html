@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>White Water Rafting - Contact</title>
+        <meta name="description" content="This is the contact page for White Water Rafting.">
+        <meta name="author" content="Reese Blignaut">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="WWR Logo">
+            </div>         
+            <nav class="navbar">
+                <a href="wwr/index.html">Home</a>
+                <a href="wwr/about.html">About Us</a>
+                <a href="wwr/trips.html">Trips</a>
+                <a href="wwr/contact.html">Contact Us</a>             
+            </nav>
+        </header>
+        <main>
+            <h1 class="contact-h1">Contact Us</h1>
+            <div class="employees">
+                <figure>
+                    <img src="images/employee1.webp" alt="Employee 1">
+                    <figcaption>Manager</figcaption> 
+                </figure>
+                <figure>
+                    <img src="images/employee2.webp" alt="Employee 2">
+                    <figcaption>Tour Guide</figcaption> 
+                </figure>
+                <figure>
+                    <img src="images/employee3.webp" alt="Employee 3">
+                    <figcaption>Tour Guide</figcaption> 
+                </figure>
+            </div>
+            <div class="form-container">
+                <form action="submit_form.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Inquiry Type:</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="inquiry" value="General Inquiry" required> General Inquiry</label>
+                            <label><input type="radio" name="inquiry" value="Reservation Question"> Reservation Question</label>
+                            <label><input type="radio" name="inquiry" value="Website Suggestion"> Website Suggestion</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label><input type="checkbox" name="subscribe" value="yes"> Please subscribe to the monthly newsletter</label>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Submit Inquiry</button>
+                    </div>
+                </form>
+            </div>
+            
+            <h2>Company Information</h2>
+                <p class="info-p">Address: 123 White Water, Gommiswald</p>
+                <p class="info-p">Contact Number: 123 456 7890</p>
+                <p class="info-p">Email: <a href="mailto:white.water.rafting@gmail.com">white.water.rafting@gmail.com</a></p>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6442.98934312208!2d8.958642190083706!3d47.2372545400077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sch!4v1717496253293!5m2!1sen!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        </main>
+        <footer>
+            <p>©2024 | Reese Blignaut | St Gallen, Switzerland</p>
+                <nav class="sociallinks">
+                    <a href="https://facebook.com">
+                        <img src="images/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="images/twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="images/instagram.svg" alt="Instagram">
+                    </a>
+                </nav>
+        </footer>
+    </body>
+</html>

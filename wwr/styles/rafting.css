@@ -49,12 +49,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
-h1 {
-    position: absolute;
-    left: 500px;
-    top: 150px;
-}
-
 article{
     position: absolute;
     top: 220px;
@@ -167,4 +161,83 @@ h2 {
     border:1px solid #000;
     background: var(--primary-color);
     margin: 0;
+}
+
+.contact-h1 {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.about-h1 {
+    position: absolute;
+    left: 500px;
+    top: 150px;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.employees img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    margin: 0 10px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group input[type="radio"] {
+    width: auto;
+}
+.form-group input[type="checkbox"] {
+    width: auto;
+}
+.form-group .radio-group {
+    display: flex;
+    justify-content: space-between;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF915A;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: grey;
+}
+.info-p {
+    padding: 5px;
 }
