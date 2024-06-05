@@ -124,6 +124,7 @@ h2 {
     display: block;
     width: 100%;
     height: auto;
+    padding: 0px;
 }
 
 .box {
@@ -154,7 +155,9 @@ h2 {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 10px;
     gap: 10px;
+    
 }
 
 .grid-item {
@@ -176,6 +179,8 @@ h2 {
     position: absolute;
     left: 500px;
     top: 150px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
 }
 
 .employees {
@@ -201,13 +206,16 @@ h2 {
     border-radius: 10px;
     background-color: #f9f9f9;
 }
+
 .form-group {
     margin-bottom: 15px;
 }
+
 .form-group label {
     display: block;
     margin-bottom: 5px;
 }
+
 .form-group input,
 .form-group textarea {
     width: 95%;
@@ -215,16 +223,20 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 .form-group input[type="radio"] {
     width: auto;
 }
+
 .form-group input[type="checkbox"] {
     width: auto;
 }
+
 .form-group .radio-group {
     display: flex;
     justify-content: space-between;
 }
+
 .form-group button {
     width: 100%;
     padding: 10px;
@@ -235,9 +247,156 @@ h2 {
     font-size: 16px;
     cursor: pointer;
 }
+
 .form-group button:hover {
     background-color: grey;
 }
+
 .info-p {
     padding: 5px;
 }
+
+/* Trips */
+
+.call-to-action {
+    margin: 20px 0;
+    text-align: center;
+}
+.call-to-action p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.call-to-action button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #FF915A;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.trips {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.trip {
+    width: 30%;
+    text-align: center;
+    background-color: #FF915A; 
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.trip-heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 2px solid black;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule-table th, .schedule-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #f2f2f2;
+}
+
+/* Home */
+
+.banner {
+    position: relative;
+    text-align: center; /* Center the text horizontally */
+}
+
+.banner h1 {
+    position: absolute;
+    top: 25px;
+    left: 175px;
+    font-size: 3em;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 50px;
+    color: #FF915A;
+}
+
+.grid-layout {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
+}
+
+.home-grid-item {
+    width: 50%;
+    text-align: center;
+    background-color: #FF915A;
+    border: 2px solid black;
+}
+
+.home-grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.newsletter-form {
+    text-align: center;
+}
+
+.newsletter-form h2 {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group input[type="text"]:last-child,
+.form-group input[type="email"]:last-child {
+    margin-right: 0;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: #FF915A;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.call-to-action-p {
+    padding: 0;
+}
+
+
